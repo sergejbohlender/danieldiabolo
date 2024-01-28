@@ -1,0 +1,135 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
+
+theme = "blowfish"
+baseURL = "/"
+defaultContentLanguage = "en"
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = 'en'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Dani Diabolo'
+    weight = 3
+    [languages.en.params]
+      displayName = "english"
+      isoCode = "en"
+      rtl = false
+      dateFormat = "2 January 2006"
+      logo = "img/logo.png"
+      secondaryLogo = "img/logo_secondary.png"
+      description = "My awesome website"
+      copyright = "Copy, _right?_ :thinking_face:"
+    [languages.en.author]
+      name = "Daniel Diabolo"
+      image = "img/daniel.jpg"
+      headline = "I'm only human"
+      bio = "A little bit about you"
+      links = []
+  
+  [languages.es]
+    disabled = false
+    languageCode = 'es'
+    languageDirection = 'ltr'
+    languageName = 'Spanish'
+    title = 'Dani Diabolo'
+    weight = 2
+    [languages.es.params]
+      displayName = "spanish"
+      isoCode = "es"
+      rtl = false
+      dateFormat = "2 January 2006"
+      logo = "img/logo.png"
+      secondaryLogo = "img/logo_secondary.png"
+      description = "My awesome website"
+      copyright = "Copy, _right?_ :thinking_face:"
+    [languages.es.author]
+      name = "Daniel Diabolo"
+      image = "img/daniel.jpg"
+      headline = "I'm only human"
+      bio = "A little bit about you"
+      links = []
+
+[languages.de]
+    disabled = false
+    languageCode = 'de'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Dani Diabolo'
+    weight = 0
+    [languages.de.params]
+      displayName = "german"
+      isoCode = "de"
+      rtl = false
+      dateFormat = "2 January 2006"
+      logo = "img/logo.png"
+      secondaryLogo = "img/logo_secondary.png"
+      description = "My awesome website"
+      copyright = "Copy, _right?_ :thinking_face:"
+    [languages.de.author]
+      name = "Daniel Diabolo"
+      image = "img/daniel.jpg"
+      headline = "I'm only human"
+      bio = "A little bit about you"
+      links = []
+
+
+
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+
+buildDrafts = true
+buildFuture = true
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10
