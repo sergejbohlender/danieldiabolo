@@ -13,22 +13,21 @@ defaultContentLanguage = "en"
     languageCode = 'en'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Dani Diabolo'
     weight = 3
     [languages.en.params]
       displayName = "english"
       isoCode = "en"
       rtl = false
       dateFormat = "2 January 2006"
-      logo = "img/logo.png"
-      secondaryLogo = "img/logo_secondary.png"
+      logo = "img/icon_white_50_50.png"
+      secondaryLogo = "img/icon_black_50_50.png"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
       copyright = "Copy, _right?_ :thinking_face:"
     [languages.en.author]
-      name = "Daniel Diabolo"
-      image = "img/daniel.jpg"
-      headline = "I'm only human"
-      bio = "A little bit about you"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       links = []
   
   [languages.es]
@@ -36,22 +35,21 @@ defaultContentLanguage = "en"
     languageCode = 'es'
     languageDirection = 'ltr'
     languageName = 'Spanish'
-    title = 'Dani Diabolo'
     weight = 2
     [languages.es.params]
       displayName = "spanish"
       isoCode = "es"
       rtl = false
       dateFormat = "2 January 2006"
-      logo = "img/logo.png"
-      secondaryLogo = "img/logo_secondary.png"
+      logo = "img/icon_white_50_50.png"
+      secondaryLogo = "img/icon_black_50_50.png"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
       copyright = "Copy, _right?_ :thinking_face:"
     [languages.es.author]
-      name = "Daniel Diabolo"
-      image = "img/daniel.jpg"
-      headline = "I'm only human"
-      bio = "A little bit about you"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       links = []
 
 [languages.de]
@@ -59,22 +57,21 @@ defaultContentLanguage = "en"
     languageCode = 'de'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
-    title = 'Dani Diabolo'
     weight = 0
     [languages.de.params]
       displayName = "german"
       isoCode = "de"
       rtl = false
       dateFormat = "2 January 2006"
-      logo = "img/logo.png"
-      secondaryLogo = "img/logo_secondary.png"
+      logo = "img/icon_white_50_50.png"
+      secondaryLogo = "img/icon_black_50_50.png"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
       copyright = "Copy, _right?_ :thinking_face:"
     [languages.de.author]
-      name = "Daniel Diabolo"
-      image = "img/daniel.jpg"
-      headline = "I'm only human"
-      bio = "A little bit about you"
+      image = "img/logo.png"
+      secondaryImage = "img/logo_secondary.png"
       links = []
 
 
