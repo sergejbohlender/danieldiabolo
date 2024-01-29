@@ -1,0 +1,7 @@
+{{$baseUrl := .Site.BaseURL}}
+{{ with .Site.GetPage "/home" }}
+    {{ range  .Pages }}
+        {{ $path := printf "%s" .Title | printf "%s%s" "#" | printf "%s%s" $baseUrl | printf "%s"}}
+            <a href="{{$path}}" class="flex items-center">{{.Title | markdownify | emojify}}</a>
+    {{end}}
+{{end}}

@@ -55,14 +55,16 @@
         </div>
     </div>
 </article>
-<section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+
+<section class="max-w-full prose dark:prose-invert">{{ .Content | emojify }}</section>
 
 {{ with .Site.GetPage "/home" }}
     {{ range  .Pages }}
-        <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral py-16">
+        <h1 class="relative group mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral py-16">
             {{ .Title | emojify }}
         </h1>
-        <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+        <div id="{{.Title}}" class="anchor"></div>
+        <section class="max-w-full prose dark:prose-invert">{{ .Content | emojify }}</section>
     {{ end }}
 {{ end }}
 
