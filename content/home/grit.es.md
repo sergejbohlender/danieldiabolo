@@ -1,5 +1,6 @@
 +++
 title = "GRIT"
+featured_image = "featured.jpg"
 +++
 
 

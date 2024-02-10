@@ -1,0 +1,37 @@
+{{ $toggle := true}}
+{{ range  .Pages }}
+
+<div class="max-w-full prose dark:prose-invert">
+    {{if $toggle}}
+        <div class="flex flex-col md:flex-row">
+    {{else}}
+        <div class="flex flex-col md:flex-row-reverse">
+    {{end}}
+    {{ $toggle = not $toggle}}
+    {{if isset .Params "featured_image" }}
+        <div class="basis-[60.0%] grid">
+            <h1 class="relative group mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral py-16">
+                {{ .Title | emojify }}
+            </h1>
+            <div id="{{.Title}}" class="anchor"></div>
+            <section class="self-center">{{ .Content | emojify }}</section>
+        </div>
+        {{ $featured_img := index .Params "featured_image"}}
+        {{ with .Parent.Resources.GetMatch $featured_img }}
+            {{ $image := .Fill "600x1000"}}
+            <div class="basis-[40.0%] grid">
+                <img class="rounded-lg justify-self-center self-center" src="{{ $image.RelPermalink }}" width="300">
+            </div>
+        {{ end }}
+    {{ else }}
+        <h1 class="relative group mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral py-16">
+            {{ .Title | emojify }}
+        </h1>
+        <div id="{{.Title}}" class="anchor"></div>
+        <section class="">
+            {{ .Content | emojify }}
+        </section>                
+    {{ end }}
+    </div>
+</div>
+{{ end }}

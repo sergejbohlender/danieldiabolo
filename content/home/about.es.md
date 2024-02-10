@@ -1,5 +1,6 @@
 +++
-title="about"
+title="About"
+featured_image = "featured.jpg"
 +++
 
 Daniel no es un virtuoso. Es un conocedor del diábolo.

@@ -28,7 +28,13 @@ defaultContentLanguage = "en"
     [languages.en.author]
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
-      links = []
+      links = [
+        { instagram = "https://www.instagram.com/daniel_diabolo/?hl=en" },
+        { email = "mailto:hello@your_domain.com" },
+        { facebook = "https://www.facebook.com/DanielBlascoDiabolo/" },
+        { whatsapp = "https://wa.me/phone-number" },
+        { youtube = "https://www.youtube.com/@danieldiaboloartist4488" },
+      ]
   
   [languages.es]
     disabled = false
@@ -130,3 +136,30 @@ buildFuture = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+
