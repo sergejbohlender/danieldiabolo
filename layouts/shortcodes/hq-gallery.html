@@ -1,0 +1,22 @@
+
+{{ $images := .Page.Resources.Match (.Get "images") }}
+
+
+<div class="columns-2 md:columns-3 lg:columns-4">
+    {{ range $images }}
+    <div class="relative">
+        {{ $scaled := .Resize "600x" }}
+        <img class="rounded-md" src="{{ $scaled.RelPermalink }}">
+        <div class="absolute bottom-0 left-0 ">
+            <a
+                class="text-xs !rounded-md bg-primary-600 px-3 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+                href="{{ . }}"
+                role="button"
+                download
+            >
+            High Res
+        </a>
+        </div>
+    </div>
+    {{ end }}
+</div>
