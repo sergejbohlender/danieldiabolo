@@ -1944,6 +1944,10 @@ select {
   justify-content:space-between
 }
 
+.justify-items-center {
+  justify-items:center
+}
+
 .gap-4 {
   gap:1rem
 }
@@ -2463,6 +2467,11 @@ select {
 .text-xs {
   font-size:0.75rem;
   line-height:1rem
+}
+
+.text-3xl {
+  font-size:1.875rem;
+  line-height:2.25rem
 }
 
 .font-bold {
