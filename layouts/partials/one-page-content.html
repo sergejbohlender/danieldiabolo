@@ -9,8 +9,8 @@
     {{end}}
     {{ $toggle = not $toggle}}
     {{if isset .Params "featured_image" }}
-        <div class="basis-[60.0%] grid">
-            <h1 class="relative group mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral py-16">
+        <div class="basis-[60.0%] grid py-16 px-8">
+            <h1 class="mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral">
                 {{ .Title | emojify }}
             </h1>
             <div id="{{.Title}}" class="anchor"></div>
@@ -20,7 +20,7 @@
         {{ with .Parent.Resources.GetMatch $featured_img }}
             {{ $image := .Fill "600x1000"}}
             <div class="basis-[40.0%] grid">
-                <img class="rounded-lg justify-self-center self-center" src="{{ $image.RelPermalink }}" width="300">
+                <img class="rounded-lg self-center" src="{{ $image.RelPermalink }}" width="300">
             </div>
         {{ end }}
     {{ else }}

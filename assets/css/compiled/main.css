@@ -1944,10 +1944,6 @@ select {
   justify-content:space-between
 }
 
-.justify-items-center {
-  justify-items:center
-}
-
 .gap-4 {
   gap:1rem
 }
@@ -1994,10 +1990,6 @@ select {
 
 .self-center {
   align-self:center
-}
-
-.justify-self-center {
-  justify-self:center
 }
 
 .overflow-auto {
@@ -2414,6 +2406,10 @@ select {
   text-align:right
 }
 
+.text-end {
+  text-align:end
+}
+
 .-indent-\[999px\] {
   text-indent:-999px
 }
@@ -2467,11 +2463,6 @@ select {
 .text-xs {
   font-size:0.75rem;
   line-height:1rem
-}
-
-.text-3xl {
-  font-size:1.875rem;
-  line-height:2.25rem
 }
 
 .font-bold {
