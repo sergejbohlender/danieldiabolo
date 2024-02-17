@@ -34,6 +34,7 @@ defaultContentLanguage = "en"
         { facebook = "https://www.facebook.com/DanielBlascoDiabolo/" },
         { whatsapp = "https://wa.me/phone-number" },
         { youtube = "https://www.youtube.com/@danieldiaboloartist4488" },
+        { patreon = "https://www.patreon.com/DDsDojo"},
       ]
   
   [languages.es]
