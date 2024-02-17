@@ -2616,6 +2616,18 @@ select {
   opacity:0.6
 }
 
+.opacity-100 {
+  opacity:1
+}
+
+.opacity-20 {
+  opacity:0.2
+}
+
+.opacity-40 {
+  opacity:0.4
+}
+
 .mix-blend-normal {
   mix-blend-mode:normal
 }
@@ -4407,6 +4419,10 @@ pre {
   opacity:0.9
 }
 
+.hover\:opacity-100:hover {
+  opacity:1
+}
+
 .hover\:outline-none:hover {
   outline:2px solid transparent;
   outline-offset:2px
@@ -4648,6 +4664,10 @@ pre {
 :is(.dark .dark\:hover\:text-primary-400:hover) {
   --tw-text-opacity:1;
   color:rgba(var(--color-primary-400), var(--tw-text-opacity))
+}
+
+:is(.dark .dark\:hover\:opacity-100:hover) {
+  opacity:1
 }
 
 :is(.dark .dark\:focus\:bg-primary-900:focus) {
