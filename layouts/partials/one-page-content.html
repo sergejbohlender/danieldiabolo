@@ -14,7 +14,7 @@
                 {{ .Title | emojify }}
             </h1>
             <div id="{{.Title}}" class="anchor"></div>
-            <section class="self-center">{{ .Content | emojify }}</section>
+            <section class="text-justify">{{ .Content | emojify }}</section>
         </div>
         {{ $featured_img := index .Params "featured_image"}}
         {{ with .Parent.Resources.GetMatch $featured_img }}
@@ -28,7 +28,7 @@
             {{ .Title | emojify }}
         </h1>
         <div id="{{.Title}}" class="anchor"></div>
-        <section class="">
+        <section class="text-justify">
             {{ .Content | emojify }}
         </section>                
     {{ end }}

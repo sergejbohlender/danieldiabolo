@@ -1924,10 +1924,6 @@ select {
   flex-wrap:wrap
 }
 
-.place-items-center {
-  place-items:center
-}
-
 .items-end {
   align-items:flex-end
 }
@@ -1946,10 +1942,6 @@ select {
 
 .justify-between {
   justify-content:space-between
-}
-
-.justify-items-center {
-  justify-items:center
 }
 
 .gap-4 {
@@ -1998,10 +1990,6 @@ select {
 
 .self-center {
   align-self:center
-}
-
-.justify-self-center {
-  justify-self:center
 }
 
 .overflow-auto {
@@ -2416,6 +2404,10 @@ select {
 
 .text-right {
   text-align:right
+}
+
+.text-justify {
+  text-align:justify
 }
 
 .-indent-\[999px\] {
