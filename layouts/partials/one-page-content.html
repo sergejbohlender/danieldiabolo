@@ -10,7 +10,7 @@
     {{ $toggle = not $toggle}}
     {{if isset .Params "featured_image" }}
         <div class="basis-[60.0%] grid py-16 px-8">
-            <h1 class="mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral">
+            <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
                 {{ .Title | emojify }}
             </h1>
             <div id="{{.Title}}" class="anchor"></div>

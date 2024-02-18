@@ -1924,6 +1924,10 @@ select {
   flex-wrap:wrap
 }
 
+.place-items-center {
+  place-items:center
+}
+
 .items-end {
   align-items:flex-end
 }
@@ -1942,6 +1946,10 @@ select {
 
 .justify-between {
   justify-content:space-between
+}
+
+.justify-items-center {
+  justify-items:center
 }
 
 .gap-4 {
@@ -1990,6 +1998,10 @@ select {
 
 .self-center {
   align-self:center
+}
+
+.justify-self-center {
+  justify-self:center
 }
 
 .overflow-auto {
@@ -2406,10 +2418,6 @@ select {
   text-align:right
 }
 
-.text-end {
-  text-align:end
-}
-
 .-indent-\[999px\] {
   text-indent:-999px
 }
@@ -2608,24 +2616,16 @@ select {
   opacity:0.3
 }
 
+.opacity-40 {
+  opacity:0.4
+}
+
 .opacity-50 {
   opacity:0.5
 }
 
 .opacity-60 {
   opacity:0.6
-}
-
-.opacity-100 {
-  opacity:1
-}
-
-.opacity-20 {
-  opacity:0.2
-}
-
-.opacity-40 {
-  opacity:0.4
 }
 
 .mix-blend-normal {
@@ -4415,12 +4415,12 @@ pre {
   text-underline-offset:2px
 }
 
-.hover\:opacity-90:hover {
-  opacity:0.9
-}
-
 .hover\:opacity-100:hover {
   opacity:1
+}
+
+.hover\:opacity-90:hover {
+  opacity:0.9
 }
 
 .hover\:outline-none:hover {
