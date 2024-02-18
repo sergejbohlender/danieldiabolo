@@ -27,5 +27,5 @@ Music styles: EDM, glitch, ambient, hip hop, future bass
 {{< icon "download" >}} Technical rider
 {{< /button >}}
 
-This my first edition- Dan
+
 
