@@ -1,6 +1,6 @@
 +++
-title = "GRIT"
-featured_image = "featured.jpg"
+title = "Grit"
+featured_image = "grit.jpg"
 +++
 
 
