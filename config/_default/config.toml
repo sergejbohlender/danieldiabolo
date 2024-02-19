@@ -11,8 +11,8 @@ defaultContentLanguage = "en"
   [languages.en]
     disabled = false
     languageCode = 'en'
-    languageDirection = 'ltr'
     languageName = 'English'
+    title = "Daniel Diabolo"
     weight = 3
     [languages.en.params]
       displayName = "english"
@@ -24,8 +24,9 @@ defaultContentLanguage = "en"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
-      copyright = "Copy, _right?_ :thinking_face:"
+      #copyright = "Copy, _right?_ :thinking_face:"
     [languages.en.author]
+      name = "Daniel Diabolo"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       links = [
@@ -53,8 +54,9 @@ defaultContentLanguage = "en"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
-      copyright = "Copy, _right?_ :thinking_face:"
+      #copyright = "Copy, _right?_ :thinking_face:"
     [languages.es.author]
+      name = "Daniel Diabolo"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       links = []
@@ -75,8 +77,9 @@ defaultContentLanguage = "en"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       description = "My awesome website"
-      copyright = "Copy, _right?_ :thinking_face:"
+      #copyright = "Copy, _right?_ :thinking_face:"
     [languages.de.author]
+      name = "Daniel Diabolo"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
       links = []

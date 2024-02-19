@@ -4,6 +4,7 @@
 
 <div class="columns-2 md:columns-3 lg:columns-4">
     {{ range $images }}
+    <div class="py-2">
     <div class="relative">
         {{ $scaled := .Resize "600x" }}
         <img class="rounded-md" src="{{ $scaled.RelPermalink }}">
@@ -17,6 +18,7 @@
             download
         </a>
         </div>
+    </div>
     </div>
     {{ end }}
 </div>
