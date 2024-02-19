@@ -4825,6 +4825,15 @@ pre {
     padding-left:6rem;
     padding-right:6rem
   }
+
+  .md\:px-8 {
+    padding-left:2rem;
+    padding-right:2rem
+  }
+
+  .md\:text-justify {
+    text-align:justify
+  }
 }
 
 @media (min-width: 1024px) {
