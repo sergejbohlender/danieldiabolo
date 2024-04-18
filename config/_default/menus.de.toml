@@ -1,0 +1,9 @@
+[[footer]]
+  name = "Impressum"
+  pageRef = "legal"
+  weight = 997
+
+[[footer]]
+  name = "Datenschutz"
+  pageRef = "privacy"
+  weight = 998

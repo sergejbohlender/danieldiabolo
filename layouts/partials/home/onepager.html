@@ -21,11 +21,11 @@
                 {{ if .Site.Params.Image }}
                     {{ $image := resources.Get .Site.Params.Image }}
                     {{ if $image }}
-                        <div class="flex justify-end">
+                        <div class="flex justify-center">
                             <div class="">
                                 <img class="mainimage" alt="{{ $.Site.Author.name | default " Author" }}" src="{{ $image.RelPermalink }}" />
                                 {{ with .Site.Author.links }}
-                                <div class="flex flex-wrap justify-center">
+                                <div class="flex flex-wrap justify-between">
                                     {{ range $links := . }}
                                     {{ range $name, $url := $links }}
                                         <a class="mt-3 mb-10 text-2xl px-2 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="{{ $url }}" target="_blank"
@@ -43,7 +43,9 @@
     </div>
 </article>
 
-<section class="my-20 max-w-full prose dark:prose-invert">{{ .Content | emojify }}</section>
+<section class="my-20 max-w-full prose dark:prose-invert">
+    <div class="flex justify-center">{{ .Content | emojify }}</div>
+</section>
 {{ with .Site.GetPage "/home" }}{{ partial "one-page-content" .}}{{ end }}
 <section>
     {{ partial "recent-articles/main.html" . }}

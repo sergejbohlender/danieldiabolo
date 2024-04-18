@@ -1,0 +1,9 @@
+[[footer]]
+  name = "Aviso Legal"
+  pageRef = "legal"
+  weight = 997
+
+[[footer]]
+  name = "Política de privacidad"
+  pageRef = "privacy"
+  weight = 998

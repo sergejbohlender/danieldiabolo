@@ -1,18 +1,14 @@
-{{ $toggle := true}}
+{{ $reverse := true}}
 {{ range  .Pages }}
 
 <div class="max-w-full prose dark:prose-invert">
-    {{if $toggle}}
-        <div class="flex flex-col md:flex-row">
-    {{else}}
-        <div class="flex flex-col md:flex-row-reverse">
-    {{end}}
-    {{ $toggle = not $toggle}}
     {{if isset .Params "featured_image" }}
-        <div class="basis-[60.0%] grid py-16 md:px-8">
-            <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-                {{ .Title | emojify }}
-            </h1>
+        {{ $reverse = not $reverse}}
+        <div class="flex flex-col {{ cond $reverse "md:flex-row-reverse" "md:flex-row"}}">
+            <div class="basis-[60.0%] grid py-16 md:px-8">
+                <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+                    {{ .Title | emojify }}
+                </h1>
             <div id="{{.Title}}" class="anchor"></div>
             <section class="text-justify">{{ .Content | emojify }}</section>
         </div>
@@ -20,18 +16,20 @@
         {{ with .Parent.Resources.GetMatch $featured_img }}
             {{ $image := .Fill "600x1000"}}
             <div class="basis-[40.0%] grid">
-                <img class="rounded-lg self-center place-self-center" src="{{ $image.RelPermalink }}" width="300">
+                <img class="rounded-lg self-auto place-self-center {{ cond $reverse "md:place-self-start" "md:place-self-end"}}" src="{{ $image.RelPermalink }}" width="300">
             </div>
         {{ end }}
+    </div>
     {{ else }}
+    <div class="flex justify-center">
         <h1 class="relative group mt-0 text-2xl font-extrabold text-neutral-900 dark:text-neutral py-16">
             {{ .Title | emojify }}
         </h1>
         <div id="{{.Title}}" class="anchor"></div>
         <section class="text-justify">
             {{ .Content | emojify }}
-        </section>                
+        </section>
+    </div>                
     {{ end }}
-    </div>
 </div>
 {{ end }}
