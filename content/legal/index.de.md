@@ -16,9 +16,8 @@ Daniel Blasco
 
 Test data!
 Kontakt:  
-Telefon: 01234-789456  
-Fax: 1234-56789  
-E-Mail: max@muster.de
+
+E-Mail: mail@danieldiabolo.info
 
 ## Haftungsausschluss:
 

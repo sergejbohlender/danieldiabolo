@@ -31,7 +31,7 @@ defaultContentLanguage = "en"
       secondaryImage = "img/logo_secondary.png"
       links = [
         { instagram = "https://www.instagram.com/daniel_diabolo/?hl=en" },
-        { email = "mailto:hello@your_domain.com" },
+        { email = "mailto:mail@danieldiabolo.info" },
         { facebook = "https://www.facebook.com/DanielBlascoDiabolo/" },
         { whatsapp = "https://wa.me/phone-number" },
         { youtube = "https://www.youtube.com/@danieldiaboloartist4488" },
@@ -59,7 +59,14 @@ defaultContentLanguage = "en"
       name = "Daniel Diabolo"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
-      links = []
+      links = [
+        { instagram = "https://www.instagram.com/daniel_diabolo/?hl=es" },
+        { email = "mailto:mail@danieldiabolo.info" },
+        { facebook = "https://www.facebook.com/DanielBlascoDiabolo/" },
+        { whatsapp = "https://wa.me/phone-number" },
+        { youtube = "https://www.youtube.com/@danieldiaboloartist4488" },
+        { patreon = "https://www.patreon.com/DDsDojo"},
+      ]
 
 [languages.de]
     disabled = false
@@ -82,7 +89,14 @@ defaultContentLanguage = "en"
       name = "Daniel Diabolo"
       image = "img/logo.png"
       secondaryImage = "img/logo_secondary.png"
-      links = []
+      links = [
+        { instagram = "https://www.instagram.com/daniel_diabolo/?hl=de" },
+        { email = "mailto:mail@danieldiabolo.info" },
+        { facebook = "https://www.facebook.com/DanielBlascoDiabolo/" },
+        { whatsapp = "https://wa.me/phone-number" },
+        { youtube = "https://www.youtube.com/@danieldiaboloartist4488" },
+        { patreon = "https://www.patreon.com/DDsDojo"},
+      ]
 
 
 
