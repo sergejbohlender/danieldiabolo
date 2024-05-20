@@ -6,18 +6,14 @@ showTableOfContents: true
 
 Angaben gemäß § 5 TMG
 
-Daniel Blasco  
-Musterweg  
-12345 Pinto  
-Spanien
+Daniel Blasco Marcos  
+C/DE la Nación Dominicana 15 2°B  
+28320 Pinto (Spanien)  
+
+E-Mail: mail@danieldiabolo.info  
 
 Vertreten durch:  
-Daniel Blasco
-
-Test data!
-Kontakt:  
-
-E-Mail: mail@danieldiabolo.info
+Daniel Blasco Marcos
 
 ## Haftungsausschluss:
 

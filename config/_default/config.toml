@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
     title = "Daniel Diabolo"
     weight = 3
     [languages.en.params]
-      displayName = "english"
+      displayName = "English"
       isoCode = "en"
       rtl = false
       dateFormat = "2 January 2006"
@@ -45,7 +45,7 @@ defaultContentLanguage = "en"
     languageName = 'Spanish'
     weight = 2
     [languages.es.params]
-      displayName = "spanish"
+      displayName = "Español"
       isoCode = "es"
       rtl = false
       dateFormat = "2 January 2006"
@@ -75,7 +75,7 @@ defaultContentLanguage = "en"
     languageName = 'Deutsch'
     weight = 0
     [languages.de.params]
-      displayName = "german"
+      displayName = "Deutsch"
       isoCode = "de"
       rtl = false
       dateFormat = "2 January 2006"
