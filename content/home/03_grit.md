@@ -21,10 +21,10 @@ Music styles: EDM, glitch, ambient, hip hop, future bass
 
 <div class="flex gap-y-3 gap-x-3 flex-wrap">
 {{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
-{{< icon "youtube" >}} Watch the act
+{{< icon "youtube" >}}&nbsp;Watch the act
 {{< /button >}}
 {{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
-{{< icon "download" >}} Technical rider
+{{< icon "download" >}}&nbsp;Technical rider
 {{< /button >}}
 </div>
 

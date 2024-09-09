@@ -22,11 +22,11 @@ Music styles: EDM, glitch, ambient, hip hop, future bass
 
 
 {{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
-{{< icon "youtube" >}} Watch the act
+{{< icon "youtube" >}}&nbsp;Watch the act
 {{< /button >}}
 <a>&nbsp;&nbsp;</a>
 {{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
-{{< icon "download" >}} Technical rider
+{{< icon "download" >}}&nbsp;Technical rider
 {{< /button >}}
 
 

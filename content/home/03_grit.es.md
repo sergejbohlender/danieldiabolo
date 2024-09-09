@@ -20,3 +20,12 @@ Ancho: 6m
 Profundidad: 6m
 
 Las luces de diábolo utilizan comunicación Wi-Fi desde una PC de control. Inhibidores de frecuencia cercanos pueden causar malfuncionamiento.
+
+
+{{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
+{{< icon "youtube" >}}&nbsp;Watch the act
+{{< /button >}}
+<a>&nbsp;&nbsp;</a>
+{{< button href="https://www.youtube.com/watch?v=3nbcoApNHz4" >}}
+{{< icon "download" >}}&nbsp;Technical rider
+{{< /button >}}
