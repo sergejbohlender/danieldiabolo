@@ -1,4 +1,7 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<section class="my-20 max-w-full prose dark:prose-invert">
+    <div class="flex justify-center">{{ .Content | emojify }}</div>
+</section>
 <article class="max-w-full prose dark:prose-invert">
     <div class="relative">
         <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
@@ -42,10 +45,6 @@
         </div>
     </div>
 </article>
-
-<section class="my-20 max-w-full prose dark:prose-invert">
-    <div class="flex justify-center">{{ .Content | emojify }}</div>
-</section>
 {{ with .Site.GetPage "/home" }}{{ partial "one-page-content" .}}{{ end }}
 <section>
     {{ partial "recent-articles/main.html" . }}
