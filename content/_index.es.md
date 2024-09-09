@@ -6,5 +6,5 @@
   speed=50
   breakLines=false
 >}}
-Shapes, thrills and spinning soul! (Spanish version?)
+Shapes, thrills and spinning soul!
 {{< /typeit >}}
